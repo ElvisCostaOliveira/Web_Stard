@@ -1,7 +1,16 @@
-https://www.w3schools.com/
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "explorer.compactFolders": false
+}
 
 
-00020101021226850014br.gov.bcb.pix2563pix.santander.com.br/qr/v2/1def78bc-4321-4c9e-b102-95719bb34aa552040000530398654041.005802BR5917TELEFONICA BRASIL6009SAO PAULO62070503***63042506
+---Seletores---
+
+tag: Elemento do Html
+.class: Atributo da Tag
+#id: Atributo da Tag, Identificação
 
 
-Teste*******
+*Tirar css padrão do html*
+
