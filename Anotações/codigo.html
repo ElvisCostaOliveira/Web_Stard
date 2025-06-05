@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Página</title>
+  <style>
+    :root {
+      --cor-fundo: #f0f4f8;
+      --cor-texto: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header, main, footer {
+      width: 100%;
+      max-width: 800px;
+      text-align: center;
+    }
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    section {
+      background: #ffffff;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    form {
+      background: #ffffff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    input[type="text"], input[type="email"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #e0e0e0;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Minha Página</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Sou um entusiasta da tecnologia e adoro aprender coisas novas todos os dias.</p>
+    </section>
+
+    <section>
+      <h2>Projetos</h2>
+      <p>Atualmente, estou trabalhando em alguns projetos web e explorando novas tecnologias.</p>
+    </section>
+
+    <form>
+      <h2>Contato</h2>
+      <input type="text" placeholder="Nome" name="nome" required>
+      <input type="email" placeholder="E-mail" name="email" required>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Produto A</td>
+          <td>R$ 100,00</td>
+        </tr>
+        <tr>
+          <td>Produto B</td>
+          <td>R$ 150,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    Feito por Elvis Oliveira
+  </footer>
+
+</body>
+</html>
